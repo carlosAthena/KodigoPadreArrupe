@@ -15,8 +15,8 @@ if (isset($_POST['enviar'])) {
     $email = $_POST['email'];
     $fecha = $_POST['date'];
     $hora= $_POST['hora'];
-    $reservacion = "Reserva el día " . $date . " a las " . $hora;
-    $datos = " Mi nombre es " . $nombre . ", mi dui es: " . $dui . ", mi carnet es: " . $carnet . ", y mi correo es: " . $email;
+    $reservacion = "Reserva el día " . $date . " a la hora: " . $hora;
+    $datos = " El nombre del estudiante es: " . $nombre . ", su dui es: " . $dui . ", y su carnet es: " . $carnet . ", y mi correo es: " . $email;
 
 $to = "carlosdavidmancia@gmail.com";
 
